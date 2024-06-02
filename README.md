@@ -90,5 +90,19 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 ##### Video
 
+## Models
+|Index|Chat Type | LLM inference type|Huggingface Link|Perform Task|
+|---------|--------|--------|-----|----|
+|1| daily_chatbots | transformers | https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Chat_sharegpt_roleplay_chat_lora_small |Daily Chat|
+|2| daily_chatbots | llama-cpp-python  | https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Chat_sharegpt_roleplay_chat_GGUF |Daily Chat |
+|3|daily_chatbots | vLLM| https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Chat_sharegpt_roleplay_chat_AWQ | Daily Chat|
+| 4|plot_chatbots | transformers | https://huggingface.co/svjack/Genshin_Impact_Mistral_v3_Plot_Chat_roleplay_chat_lora_small | Plot Chat |
+| 4|plot_chatbots | transformers | https://huggingface.co/svjack/DPO_Genshin_Impact_Mistral_Plot_Engine_Step_Json_Short_lora_small |Plot Engine |
+| 5|plot_chatbots | vLLM  | https://huggingface.co/svjack/Genshin_Impact_Mistral_v3_Plot_Chat_roleplay_chat_AWQ |Plot Chat|
+| 5|plot_chatbots | vLLM  | https://huggingface.co/svjack/DPO_Genshin_Impact_Mistral_Plot_Engine_Step_Json_Short_AWQ|Plot Engine|
+| 6|plot_chatbots | transformers  | https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Plot_Chat_roleplay_chat_lora_small |Plot Chat|
+| 6|plot_chatbots | transformers  | https://huggingface.co/svjack/DPO_Genshin_Impact_Qwen_1_5_Plot_Engine_Step_Json_Short_lora_small | Plot Engine|
+|7|plot_chatbots | vLLM  | https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Plot_Chat_roleplay_chat_AWQ |Plot Chat|
+|7|plot_chatbots | vLLM  | https://huggingface.co/svjack/DPO_Genshin_Impact_Qwen_1_5_Plot_Engine_Step_Json_Short_AWQ |Plot Engine|
 
 
