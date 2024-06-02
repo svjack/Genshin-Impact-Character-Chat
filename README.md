@@ -48,5 +48,20 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 |7|python -m vllm.entrypoints.openai.api_server --model svjack/Genshin_Impact_Qwen_1_5_Plot_Chat_roleplay_chat_AWQ --dtype auto --api-key token-abc123 --tensor-parallel-size 2 --quantization awq --max-model-len 4000 --gpu-memory-utilization 0.35 --port 8000
 |7|python -m vllm.entrypoints.openai.api_server --model svjack/DPO_Genshin_Impact_Qwen_1_5_Plot_Engine_Step_Json_Short_AWQ --dtype auto --api-key token-abc123 --tensor-parallel-size 2 --quantization awq --max-model-len 2000 --gpu-memory-utilization 0.35 --port 8001| python plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py | A4000x2 34gb|
 
- 
+### Running Results
+#### daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py
+
+#### daily_chatbots/genshin_impact_daily_chatbot_llama_cpp_gradio.py
+
+#### daily_chatbots/genshin_impact_daily_chatbot_vllm_gradio.py
+
+#### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py
+
+#### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_vllm_gradio.py
+
+#### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_transformer_gradio.py
+
+#### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
+
+
 
