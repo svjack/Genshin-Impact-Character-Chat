@@ -16,9 +16,8 @@
 ### BackGround
 [Genshin Impact](https://genshin.hoyoverse.com/en/) is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, 
 HoYoverse. The game features an anime-style open-world environment and an action-based battle system using elemental magic and character-switching. 
-
-In the Game, one can play many Characters to explore the amazing open-world environment. <br/>
-This project is an attempt to use game characters in daily chat and plot chat.
+In the Game, one can play many Characters to explore the amazing open-world environment. <br/><br/>
+This project is an attempt to use game characters in daily chat and plot chat. <br/> With the help of daily_chatbots, You will gain a deeper understanding of the characters’ personalities and backgrounds.<br/>With the help of plot_chatbots, You will gain an increased understanding of storylines and the role of characters in the storyline.
 
 ## Installation and Running Results
 This project have three llm inference types: transformers, llama-cpp-python and vLLM. Below are commands to install and run different inference running demos.<br/>
@@ -95,6 +94,7 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 * 2 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
     But because the field in gradio demo page are editable, you can paste your own plot into the field or edit any content, you not prefer.<br/>
     This ability also works for daily_chatbots.
+* 3 when chat with daily_chatbots, they are relatively flexible and free, when chat with plot_chatbots, the chatbot will committed to advancing the plot, you need to perform strictly according to the plot.
 
 ## Models
 |Index|Chat Type | LLM inference type|Huggingface Link|Perform Task|
