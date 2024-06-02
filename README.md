@@ -49,45 +49,32 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 ### Running Results
 #### daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py
-##### Screenshot 
+[![Genshin Impact Qwen-1.5-7B-Chat Sharegpt Roleplay Turned Transformer Bot](https://img.youtube.com/vi/u8PJWqzhidg/0.jpg)](https://www.youtube.com/watch?v=u8PJWqzhidg)
 
-##### Video
 
 #### daily_chatbots/genshin_impact_daily_chatbot_llama_cpp_gradio.py
+[![Genshin Impact Qwen-1.5-7B-Chat Sharegpt Roleplay Turned LLama-CPP Bot](https://img.youtube.com/vi/5duV_UVdhCc/0.jpg)](https://www.youtube.com/watch?v=5duV_UVdhCc)
 
-##### Screenshot 
-
-##### Video
 
 #### daily_chatbots/genshin_impact_daily_chatbot_vllm_gradio.py
+[![Genshin Impact Qwen-1.5-7B-Chat Sharegpt Roleplay Turned vLLM Bot](https://img.youtube.com/vi/N1MSLyL3im0/0.jpg)](https://www.youtube.com/watch?v=N1MSLyL3im0)
 
-##### Screenshot 
-
-##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py
+[![Genshin Impact Mistral-7B-instruct-v3 Plot Roleplay Turned Transformer Bot](https://img.youtube.com/vi/G7sW5t0Mhdc/0.jpg)](https://www.youtube.com/watch?v=G7sW5t0Mhdc)
 
-##### Screenshot 
-
-##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_vllm_gradio.py
+[![Genshin Impact Mistral-7B-instruct-v0.3 Plot Roleplay Turned vLLM Bot](https://img.youtube.com/vi/rRPRQRE1zkw/0.jpg)](https://www.youtube.com/watch?v=rRPRQRE1zkw)
 
-##### Screenshot 
-
-##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_transformer_gradio.py
+[![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Turned Transformer Bot](https://img.youtube.com/vi/kzQSHdcbg1E/0.jpg)](https://www.youtube.com/watch?v=kzQSHdcbg1E)
 
-##### Screenshot 
-
-##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
+![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Tuned vLLM Bot](https://img.youtube.com/vi/XgKArKVgZIM/0.jpg)](https://www.youtube.com/watch?v=XgKArKVgZIM)
 
-##### Screenshot 
-
-##### Video
 
 #### Note
 * 1 when run python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py you should login your huggingface Account to use the base model Mistral-7b-Instruct-v0.3
