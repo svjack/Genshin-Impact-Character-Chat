@@ -91,7 +91,8 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 #### Note
 * 1 when run python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py you should login your huggingface Account to use the base model Mistral-7b-Instruct-v0.3
-* 2 You can switch characters in daily_chatbots, to have many chat combinations.
+* 2 You can switch characters in daily_chatbots, about 75 characters in daily_chatbots, you can have many chat combinations, you can take a look at https://github.com/svjack/Genshin-Impact-Character-Instruction to find them.
+* 3 In plot_chatbots, about 630 character you can talk about in plot, you can take a look at https://huggingface.co/datasets/svjack/Genshin-Impact-Plot-Character-Portrait-Merged to find them.
 * 3 In plot_chatbots, You can freely choose chapters and their related story background, cause of events, course of events, reversal of events, end of events, meaning of events and subsequent plots, etc.
 * 4 In plot_chatbots, The current conversation background is generated from the global conversation background. You can choose to use the global conversation background or the current conversation background on the right page, and select the background and corresponding interlocutor according to the index.
 * 5 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
