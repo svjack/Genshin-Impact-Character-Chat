@@ -90,11 +90,12 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 ##### Video
 
 #### Note
-* 1 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
-* 2 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
+* 1 You can switch characters in daily_chatbots, to have many chat combinations.
+* 2 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
+* 3 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
     But because the field in gradio demo page are editable, you can paste your own plot into the field or edit any content, you not prefer.<br/>
     This ability also works for daily_chatbots.
-* 3 when chat with daily_chatbots, they are relatively flexible and free, when chat with plot_chatbots, the chatbot will committed to advancing the plot, you need to perform strictly according to the plot.
+* 4 when chat with daily_chatbots, they are relatively flexible and free, when chat with plot_chatbots, the chatbot will committed to advancing the plot, you need to perform strictly according to the plot.
 
 ## Models
 |Index|Chat Type | LLM inference type|Huggingface Link|Perform Task|
