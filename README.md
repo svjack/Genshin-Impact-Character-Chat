@@ -35,7 +35,7 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 |7|plot_chatbots | vLLM  | pip install -r transformer_requirements.txt && pip install vllm |
 
 ### Runing commands and GPU requirements
-|Index|(If needed, run this before run gradio demo)Run vLLM Server| Run Gradio Demo Command (go to 127.0.0.1:7860) |GPU memory requirements or GPU cards environment|
+|Index|(If needed, run this before run gradio demo) Run vLLM Server| Run Gradio Demo Command (go to 127.0.0.1:7860) |GPU memory requirements or GPU cards environment|
 |------|--------|--------|----|
 |1|None| python daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py | 3060x1 below 12gb|
 |2|None|python daily_chatbots/genshin_impact_daily_chatbot_llama_cpp_gradio.py |3060x1 below 12gb|
