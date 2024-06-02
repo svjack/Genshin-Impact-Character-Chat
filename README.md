@@ -21,7 +21,8 @@ In the Game, one can play many Characters to explore the amazing open-world envi
 This project is an attempt to use game characters in daily chat and plot chat.
 
 ## Installation and Running Results
-This project have three llm inference types: transformers, llama-cpp-python and vLLM. Below are commands to install and run different inference running demos.
+This project have three llm inference types: transformers, llama-cpp-python and vLLM. Below are commands to install and run different inference running demos.<br/>
+demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need run one server, [5, 7] need run two servers.
 
 ### Install commands
 |Index| Chat Type | LLM inference type | Install Command in Linux |
@@ -35,7 +36,7 @@ This project have three llm inference types: transformers, llama-cpp-python and 
 |7|plot_chatbots | vLLM  | pip install -r transformer_requirements.txt && pip install vllm |
 
 ### Runing commands and GPU requirements
-|Index|Run vLLM Server| Run Gradio Demo Command (go to 127.0.0.1:7860) |GPU memory requirements or GPU cards environment|
+|Index|(If needed, run this before run gradio demo)Run vLLM Server| Run Gradio Demo Command (go to 127.0.0.1:7860) |GPU memory requirements or GPU cards environment|
 |------|--------|--------|----|
 |1|None| python daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py | 3060x1 below 12gb|
 |2|None|python daily_chatbots/genshin_impact_daily_chatbot_llama_cpp_gradio.py |3060x1 below 12gb|
