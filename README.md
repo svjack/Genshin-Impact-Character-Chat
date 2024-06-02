@@ -50,18 +50,45 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 ### Running Results
 #### daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py
+##### Screenshot 
+
+##### Video
 
 #### daily_chatbots/genshin_impact_daily_chatbot_llama_cpp_gradio.py
 
+##### Screenshot 
+
+##### Video
+
 #### daily_chatbots/genshin_impact_daily_chatbot_vllm_gradio.py
+
+##### Screenshot 
+
+##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py
 
+##### Screenshot 
+
+##### Video
+
 #### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_vllm_gradio.py
+
+##### Screenshot 
+
+##### Video
 
 #### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_transformer_gradio.py
 
+##### Screenshot 
+
+##### Video
+
 #### plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
+
+##### Screenshot 
+
+##### Video
 
 
 
