@@ -1,5 +1,29 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h3 align="center">Genshin-Impact-Character-Chat</h3>
 
-#### Install commands
+  <p align="center">
+   		Genshin Impact Character Chat Models tuned by Lora on LLM (build by Qwen1.5-7B-Chat and Mistral-7b-Instruct-v0.3)
+    <br />
+  </p>
+</p>
+
+[中文介绍](README.md)
+
+## Brief introduction
+
+### BackGround
+[Genshin Impact](https://genshin.hoyoverse.com/en/) is an action role-playing game developed by miHoYo, published by miHoYo in mainland China and worldwide by Cognosphere, 
+HoYoverse. The game features an anime-style open-world environment and an action-based battle system using elemental magic and character-switching. 
+
+In the Game, one can play many Characters to explore the amazing open-world environment. <br/>
+This project is an attempt to use game characters in daily chat and plot chat.
+
+## Installation and Running Results
+This project have three llm inference types: transformers, llama-cpp-python and vLLM. Below are commands to install and run different inference running demos.
+
+### Install commands
 | Chat Type | LLM inference type | Install Command in Linux |
 |-------|---------|--------|
 | daily_chatbots | transformers | pip install -r transformer_requirements.txt |
@@ -10,7 +34,7 @@
 | plot_chatbots | transformers  | pip install -r transformer_requirements.txt | 
 | plot_chatbots | vLLM  | pip install -r transformer_requirements.txt && pip install vllm |
 
-#### Runing commands and GPU requirements
+### Runing commands and GPU requirements
 | Run Gradio Demo Command (go to 127.0.0.1:7860) |GPU memory requirements or GPU cards environment|
 |--------|--------|
 | python daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py | 3060x1 below 12gb|
