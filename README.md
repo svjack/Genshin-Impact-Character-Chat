@@ -90,6 +90,12 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 ##### Video
 
+#### Note
+* 1 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
+* 2 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
+    But because the field in gradio demo page are editable, you can paste your own plot into the field or edit any content, you not prefer.<br/>
+    This ability also works for daily_chatbots.
+
 ## Models
 |Index|Chat Type | LLM inference type|Huggingface Link|Perform Task|
 |---------|--------|--------|-----|----|
@@ -104,5 +110,39 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 | 6|plot_chatbots | transformers  | https://huggingface.co/svjack/DPO_Genshin_Impact_Qwen_1_5_Plot_Engine_Step_Json_Short_lora_small | Plot Engine|
 |7|plot_chatbots | vLLM  | https://huggingface.co/svjack/Genshin_Impact_Qwen_1_5_Plot_Chat_roleplay_chat_AWQ |Plot Chat|
 |7|plot_chatbots | vLLM  | https://huggingface.co/svjack/DPO_Genshin_Impact_Qwen_1_5_Plot_Engine_Step_Json_Short_AWQ |Plot Engine|
+#### Note 
+You can visit above huggingface links, to check their ability.
+
+## Futher Reading
+* 1 A project about Genshin Impact Character Instruction Models tuned by Lora on LLM release in [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction) 😊
+* 2 I also release a project about A Genshin Impact Book Question Answer Project supported by LLM (build by LangChain Haystack ChatGLM Mistral OLlama), an attempt to build Chinese Q&A on the different LLM support RAG system. <br/>
+If you are interested in it, take a look at [svjack/Genshin-Impact-BookQA-LLM](https://github.com/svjack/Genshin-Impact-BookQA-LLM) 😊
+* 3 The RAG version of above project use [Qwen1.5-14B-Chat](https://huggingface.co/Qwen/Qwen1.5-14B-Chat-GGUF) have been released in
+  [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG), it's the knowledge maintain version of above project, 
+  You can retrieve knowledge of characters there, and the question can answered by characters in role play manner. 😊
+  
+<!-- CONTACT -->
+## Contact
+
+<!--
+Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+-->
+svjack - https://huggingface.co/svjack - svjackbt@gmail.com - ehangzhou@outlook.com
+
+<!--
+Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+-->
+Project Link:[https://github.com/svjack/Genshin-Impact-Character-Chat](https://github.com/svjack/Genshin-Impact-Character-Chat)
 
 
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [Genshin Impact](https://genshin.hoyoverse.com/en/)
+* [Huggingface](https://huggingface.co)
+* [Qwen/Qwen1.5-7B-Chat](https://huggingface.co/Qwen/Qwen1.5-7B-Chat)
+* [mistralai/Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
+* [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+* [vLLM](https://github.com/vllm-project/vllm)
+* [svjack/Genshin-Impact-Character-Instruction](https://github.com/svjack/Genshin-Impact-Character-Instruction)
+* [svjack/Genshin-Impact-BookQA-LLM](https://github.com/svjack/Genshin-Impact-BookQA-LLM)
+* [svjack/Genshin-Impact-RAG](https://github.com/svjack/Genshin-Impact-RAG)
