@@ -92,11 +92,13 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 #### Note
 * 1 when run python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py you should login your huggingface Account to use the base model Mistral-7b-Instruct-v0.3
 * 2 You can switch characters in daily_chatbots, to have many chat combinations.
-* 3 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
-* 4 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
+* 3 In plot_chatbots, You can freely choose chapters and their related story background, cause of events, course of events, reversal of events, end of events, meaning of events and subsequent plots, etc.
+* 4 In plot_chatbots, The current conversation background is generated from the global conversation background. You can choose to use the global conversation background or the current conversation background on the right page, and select the background and corresponding interlocutor according to the index.
+* 5 Thinking from a performance perspective, I suggest running vLLM inference demos ([3, 5, 7]).
+* 6 the prebuild info about Genshin Impact plot used in plot_chatbots are generated from AI, so they may contain some inaccurate errors.<br/>
     But because the field in gradio demo page are editable, you can paste your own plot into the field or edit any content, you not prefer.<br/>
     This ability also works for daily_chatbots.
-* 5 when chat with daily_chatbots, they are relatively flexible and free, when chat with plot_chatbots, the chatbot will committed to advancing the plot, you need to perform strictly according to the plot.
+* 7 when chat with daily_chatbots, they are relatively flexible and free, when chat with plot_chatbots, the chatbot will committed to advancing the plot, you need to perform strictly according to the plot.
 
 ## Models
 |Index|Chat Type | LLM inference type|Huggingface Link|Perform Task|
