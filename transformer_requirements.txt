@@ -1,0 +1,11 @@
+peft 
+transformers 
+bitsandbytes 
+ipykernel 
+rapidfuzz 
+datasets 
+gradio 
+sentencepiece 
+openai
+numpy
+pandas
