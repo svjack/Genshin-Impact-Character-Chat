@@ -83,13 +83,14 @@
 * 1 当运行 python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py 时，您应该先登录您的 Huggingface 帐户以使用基本模型 Mistral-7b-Instruct-v0.3
 * 2 daily_chatbots中可以切换角色，daily_chatbots中大约有75个角色，你可以有很多聊天组合，看看https://github.com/svjack/Genshin-Impact-Character-Instruction 查看这些角色。
 * 3 在plot_chatbots中，大约有630个可以在情节中进行聊天的角色，请查看https://huggingface.co/datasets/svjack/Genshin-Impact-Plot-Character-Portrait-Merged 查看这些角色。
-* 3 在plot_chatbots中，您可以自由选择章节及其相关的故事背景、事件起因、事件进程、事件反转、事件结束、事件意义以及后续情节等。
-* 4 在plot_chatbots中，当前对话背景是根据全局对话背景生成的。您可以在右侧页面选择使用全局对话背景或当前对话背景，并根据索引选择背景和对应的​​对话者。
-* 5 从性能角度考虑，我建议运行 vLLM 推理演示 ([3, 5, 7])。
-* 6 plot_chatbots中使用的有关原神剧情的背景预构建信息（ https://huggingface.co/datasets/svjack/Genshin-Impact-Plot-Summary ）是由AI生成的，因此它们包含一些不准确的错误。<br/>
+* 4 在plot_chatbots中，您可以自由选择章节及其相关的故事背景、事件起因、事件进程、事件反转、事件结束、事件意义以及后续情节等。
+* 5 在plot_chatbots中，建议使用默认的对话者1，模型是以对话者1的角度训练的。
+* 6 在plot_chatbots中，当前对话背景是根据全局对话背景生成的。您可以在右侧页面选择使用全局对话背景或当前对话背景，并根据索引选择背景和对应的​​对话者。
+* 7 从性能角度考虑，我建议运行 vLLM 推理演示 ([3, 5, 7])。
+* 8 plot_chatbots中使用的有关原神剧情的背景预构建信息（ https://huggingface.co/datasets/svjack/Genshin-Impact-Plot-Summary ）是由AI生成的，因此它们包含一些不准确的错误。<br/>
     但由于 gradio 演示页面中的字段是可编辑的，因此您可以将自己的编辑结果粘贴到字段中或编辑任何您不喜欢的内容。（或者从互联网里面找到一些剧情信息黏贴到里面）<br/>
     此功能也适用于 daily_chatbots。
-* 7 与daily_chatbots聊天时，相对灵活自由，与plot_chatbots聊天时，聊天机器人会致力于推进剧情，需要严格按照剧情执行。
+* 9 与daily_chatbots聊天时，相对灵活自由，与plot_chatbots聊天时，聊天机器人会致力于推进剧情，需要严格按照剧情执行。
 
 ## 模型
 |索引|聊天类型 | LLM 推理类型|Huggingface 链接|执行的任务|
