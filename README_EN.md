@@ -32,7 +32,7 @@ This project is an attempt to use game characters in daily chat and plot chat. <
 
 * 6. Tested the use of three reasoning frameworks: transformers, llama-cpp-python, and vLLM in these two dialogue scenarios. In the transformers scenario, the lora switch method was used to provide functional implementation under low memory usage conditions. In llama-cpp-python and vLLM scenarios, models are merged, deployed and accelerated to provide functional implementation under high inference speed requirements, which can be flexibly selected according to needs.
 
-* 7. A webui is provided for calling, and through this webui you can edit the DIY settings of daily chat or plot chat. As a user, you can write better daily chat or plot scripts according to your own preferences, and play a role in the script.
+* 7. A webui is provided for calling, and through this webui you can edit the DIY settings of daily chat or plot chat. As a user, you can write better daily chat or plot scripts according to your own preferences, and play a role in the script.(below Generated results with background information provided by AI polishing. will display how to do this.)
 
 
 ## Installation and Running Results
