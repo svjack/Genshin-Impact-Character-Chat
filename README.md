@@ -88,9 +88,13 @@
 [![Genshin Impact Mistral-7B-instruct-v0.3 Plot Roleplay Turned vLLM Bot](https://img.youtube.com/vi/rRPRQRE1zkw/0.jpg)](https://www.youtube.com/watch?v=rRPRQRE1zkw) <br/>
  <br/>
 
+<!--
 #### * 6 plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_transformer_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Turned Transformer Bot](https://img.youtube.com/vi/kzQSHdcbg1E/0.jpg)](https://www.youtube.com/watch?v=kzQSHdcbg1E) <br/>
  <br/>
+ -->
+#### * 6 plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_transformer_gradio.py
+[![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Turned Transformer Bot](https://img.youtube.com/vi/Er92tfvRsx8/0.jpg)](https://www.youtube.com/watch?v=Er92tfvRsx8) <br/>
 
 #### * 7 plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Tuned vLLM Bot](https://img.youtube.com/vi/XgKArKVgZIM/0.jpg)](https://www.youtube.com/watch?v=XgKArKVgZIM) <br/>
