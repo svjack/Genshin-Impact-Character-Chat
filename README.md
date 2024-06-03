@@ -34,7 +34,7 @@
 
 * 6. 测试了transformers、llama-cpp-python、vLLM三种推理框架在这两个对话场景下的使用，在transformers场景下使用lora switch的方法给出低显存占用条件下的功能实现，在llama-cpp-python、vLLM场景下通过模型分别合并部署和加速给出高推理速度需求下的功能实现，可根据需求灵活选取。
 
-* 7. 提供了webui进行调用，并可通过此webui进行日常聊天或剧情聊天的DIY设定编辑，作为使用者可以根据自己的喜好撰写更优质的日常聊天或剧情剧本，并在剧本中扮演角色。
+* 7. 提供了webui进行调用，并可通过此webui进行日常聊天或剧情聊天的DIY设定编辑，作为使用者可以根据自己的喜好撰写更优质的日常聊天或剧情剧本，并在剧本中扮演角色。（下面：使用AI润色背景信息的生成例子 中讲展示在剧情聊天场景中使用AI润色后的文案进行角色扮演的例子）
 
 ## 安装和运行结果
 该项目具有三种 llm 推理类型：transformers、llama-cpp-python 和 vLLM。以下是安装和运行不同推理运行演示的命令。<br/>
@@ -66,6 +66,8 @@
 
 ### 运行结果
 点击下面的图片，在youtube上浏览例子调用视频
+
+#### 工程内建数据提供的结果
 
 #### * 1 daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Sharegpt Roleplay Turned Transformer Bot](https://img.youtube.com/vi/u8PJWqzhidg/0.jpg)](https://www.youtube.com/watch?v=u8PJWqzhidg) <br/>
@@ -99,6 +101,12 @@
 #### * 7 plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Tuned vLLM Bot](https://img.youtube.com/vi/XgKArKVgZIM/0.jpg)](https://www.youtube.com/watch?v=XgKArKVgZIM) <br/>
  <br/>
+
+#### 使用AI润色背景信息的生成例子
+
+#### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_vllm_gradio.py
+[![mistral-vllm-plot-chat-with-edit](https://img.youtube.com/vi/_nwDj7xZShc/0.jpg)](https://www.youtube.com/watch?v=_nwDj7xZShc) <br/>
+
 
 #### 注意
 * 1 当运行 python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py 时，您应该先登录您的 Huggingface 帐户以使用基本模型 Mistral-7b-Instruct-v0.3
