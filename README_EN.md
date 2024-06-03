@@ -28,9 +28,11 @@ This project is an attempt to use game characters in daily chat and plot chat. <
 
 * 4. The plot chat scene function consists of three parts: dialogue capabilities based on character identity information, global plot information, global plot to current dialogue plot to inference engine.
 
-* 5. Tested the use of three reasoning frameworks: transformers, llama-cpp-python, and vLLM in these two dialogue scenarios. In the transformers scenario, the lora switch method was used to provide functional implementation under low memory usage conditions. In llama-cpp-python and vLLM scenarios, models are merged, deployed and accelerated to provide functional implementation under high inference speed requirements, which can be flexibly selected according to needs.
+* 5. In addition to using the common SFT fine-tuning method, the DPO (ORPO) method was also tested for the inference engine training from the global story background to the current story background in the plot chat scene, which can reduce the problems of repeated reasoning and inversion of the order of the reasoning chain to a certain extent.
 
-* 6. Provides webui for calling.
+* 6. Tested the use of three reasoning frameworks: transformers, llama-cpp-python, and vLLM in these two dialogue scenarios. In the transformers scenario, the lora switch method was used to provide functional implementation under low memory usage conditions. In llama-cpp-python and vLLM scenarios, models are merged, deployed and accelerated to provide functional implementation under high inference speed requirements, which can be flexibly selected according to needs.
+
+* 7. Provides webui for calling.
 
 
 ## Installation and Running Results
