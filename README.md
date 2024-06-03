@@ -34,7 +34,7 @@
 
 * 6. 测试了transformers、llama-cpp-python、vLLM三种推理框架在这两个对话场景下的使用，在transformers场景下使用lora switch的方法给出低显存占用条件下的功能实现，在llama-cpp-python、vLLM场景下通过模型分别合并部署和加速给出高推理速度需求下的功能实现，可根据需求灵活选取。
 
-* 7. 提供了webui进行调用。
+* 7. 提供了webui进行调用，并可通过此webui进行日常聊天或剧情聊天的DIY设定编辑，作为使用者可以根据自己的喜好撰写更优质的日常聊天或剧情剧本，并在剧本中扮演角色。
 
 ## 安装和运行结果
 该项目具有三种 llm 推理类型：transformers、llama-cpp-python 和 vLLM。以下是安装和运行不同推理运行演示的命令。<br/>
