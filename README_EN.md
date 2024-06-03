@@ -65,6 +65,7 @@ demo index with [3, 5, 7] need run vllm server,before run gradio script. 3 need 
 
 ### Running Results
 Click below picture to view demo video on youtube.
+#### Running Results from datasource provided by project.
 
 #### * 1 daily_chatbots/genshin_impact_daily_chatbot_transformer_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Sharegpt Roleplay Turned Transformer Bot](https://img.youtube.com/vi/u8PJWqzhidg/0.jpg)](https://www.youtube.com/watch?v=u8PJWqzhidg) <br/>
@@ -98,6 +99,11 @@ Click below picture to view demo video on youtube.
 #### * 7 plot_chatbots/genshin_impact_plot_chatbot_qwen_7b_vllm_gradio.py
 [![Genshin Impact Qwen-1.5-7B-Chat Plot Roleplay Tuned vLLM Bot](https://img.youtube.com/vi/XgKArKVgZIM/0.jpg)](https://www.youtube.com/watch?v=XgKArKVgZIM) <br/>
  <br/>
+
+#### Generated results with background information provided by AI polishing.
+
+#### plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_vllm_gradio.py
+[![mistral-vllm-plot-chat-with-edit](https://img.youtube.com/vi/_nwDj7xZShc/0.jpg)](https://www.youtube.com/watch?v=_nwDj7xZShc) <br/>
 
 #### Note
 * 1 when run python plot_chatbots/genshin_impact_plot_chatbot_mistral_v3_transformer_gradio.py you should login your huggingface Account to use the base model Mistral-7b-Instruct-v0.3
